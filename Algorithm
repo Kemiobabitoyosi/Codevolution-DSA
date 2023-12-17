@@ -1,0 +1,31 @@
+An algortihm is a set of well defined instructions to solve a particular problem
+It is the recipe aka process to preparing a meal with its ingredients aka inputs
+It must have inputs and outputs
+Each step should be clear and unambiguous
+Language independent
+The absolute running time of an algorithm cannotbe predicted and depends on a number of factors
+1. Programming language used to implement the algorithm
+2. The computer the program runs on
+3. Other program running time
+4. Quality of the operating system
+5. Input size
+    5(a). Time complexity
+    5(b). Space complexity
+
+
+Asymptotic notations : Mathematical tools to represent time and space complexity
+1. Big O Notation (O Notation) - Worst case complexity
+2. Omega Notation () - Best case complexity
+3. Theta Notation (ø Notation) - Average case complexity
+
+Big O Notation describes the complexity of an algorithm using algebraic terms and has two important characteristics
+1. It is expressed in terms of the input
+2. It focuses on the bigger picture without getting caught up in minute details
+
+
+A lopp's worst case is Linear time complexity although there are exceptions O(n)
+Constant time complexity 
+Double loop will give quadratic time complexity
+Triple would be cubic time complexity
+
+Space complexity O(logn) Logarithmic complexity
