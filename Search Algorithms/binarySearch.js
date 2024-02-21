@@ -20,9 +20,9 @@ function binarySearch(arr, target) {
       return middleIndex;
     }
     if (target < arr[middleIndex]) {
-      rightIndex = middleIndex - 1;
+      rightIndex = middleIndex + 1;
     } else {
-      leftIndex = middleIndex + 1;
+      leftIndex = middleIndex - 1;
     }
   }
 }
@@ -31,5 +31,4 @@ console.log(binarySearch([-5, 2, 4, 6, 10], 10)); //4
 console.log(binarySearch([-5, 2, 4, 6, 10], 6)); //3
 console.log(binarySearch([-5, 2, 4, 6, 10], 20)); //-1
 
-explain fibonacci and how the fib of 3 is [0,1,1] and not 3?
 
